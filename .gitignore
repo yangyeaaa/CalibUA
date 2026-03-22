@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Data files (too large for git)
+data/*.npy
+
+# Model checkpoints
+*.pth
+*.pt
+
+# Experiment outputs
+diffload_v3_enhanced/
+ablation_*/
+*_results/
+*.csv
+
+# Plots
+*.png
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
