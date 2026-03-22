@@ -23,7 +23,7 @@ We propose a probabilistic load forecasting framework that achieves explicit dec
 
 ```
 ├── models/
-│   └── diffload_uncertainty_v3_enhanced.py   # Main model: training and evaluation
+│   └── uncertainty.py   # Main model: training and evaluation
 ├── experiments/
 │   ├── run_baselines.py                      # Baselines: iTransformer, MC Dropout, Deep Ensemble
 │   ├── run_gp_baseline.py                    # Gaussian Process baseline
