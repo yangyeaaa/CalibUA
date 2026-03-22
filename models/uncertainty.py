@@ -1,16 +1,3 @@
-"""
-DiffLoad-UDE: Diffusion-enhanced Load Forecasting
-with Uncertainty Decomposition and Estimation
-================================================================
-Architecture: iTransformer encoder + latent diffusion refinement
-              + dual-head explicit uncertainty decomposition
-
-Core contributions:
-  1. Explicit epistemic/aleatoric prediction heads
-  2. NLL + calibration-aware joint loss
-  3. MC-diffusion epistemic augmentation
-"""
-
 import os
 import random
 from dataclasses import dataclass, field
