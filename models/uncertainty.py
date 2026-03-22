@@ -1,22 +1,3 @@
-# diffload_uncertainty_v3_enhanced.py
-"""
-DiffLoad Uncertainty Decomposition v3 Enhanced
-=====================================================================
-Based on the original v3 code with enhanced output display.
-
-Key improvements from v2:
-1. Multi-step diffusion sampling for better epistemic estimation
-2. Ensemble of hidden states for variance amplification
-3. Learnable epistemic scaling factor
-4. Proper ECE calculation from parametric distribution
-5. NLL-based calibration loss
-
-Enhanced features:
-- Complete Pinball Loss metrics (75%, 50%, 25%)
-- Rich formatted console output with tables
-- Enhanced 20-panel visualization
-"""
-
 import os
 import random
 from dataclasses import dataclass
